@@ -47,7 +47,7 @@ elif difficulty == 'impossible' or difficulty == 'i':
     else:
         computerchoice = computerchoice(False)
 elif difficulty == 'random' or difficulty == 'r':
-    computerchoice = ['rock', 'paper', 'scissors'][random.randrange(-1, 2)]
+    computerchoice = ['rock', 'paper', 'scissors'][random.randint(0, 2)]
 else:
     print('Please choose one of the difficulties provided.')
     exit(0)
