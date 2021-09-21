@@ -5,9 +5,6 @@ try:
     if user_random_number_limit < 2:
         print('That number is too low!')
         exit(0)
-    elif user_random_number_limit < 10:
-        print('That would be too easy!')
-        exit(0)
 except ValueError:
     print('Please enter an integer')
     exit(0)
