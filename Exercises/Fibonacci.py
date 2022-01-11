@@ -8,7 +8,6 @@ def fib(n):
     return fib(n - 1) + fib(n - 2)
 
 numbers = []
-previousnumber = 0
 
 try:
     numberofnumbers = int(input('How many numbers of the fibonacci sequence would like me to generate? '))
